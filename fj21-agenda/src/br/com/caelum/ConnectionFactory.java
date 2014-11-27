@@ -1,20 +1,19 @@
 package br.com.caelum;
-
+ 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+ 
 public class ConnectionFactory {
-
-	public Connection getConnection() {
-		 try {
-		 return DriverManager.getConnection("jdbc:mysql://localhost/fj21:3306", "root", "ie14ih153");
-		 } catch (SQLException e) {
+ 
+public Connection getConnection() {
+	try {
+			Class.forName("com.mysql.jdbc.Driver"); // Essa linha carrega a classe responsável por fazer a conexão com o MySQL.
+			return DriverManager.getConnection("jdbc:mysql://localhost:3306/fj21", "root", "ie14ih153");
+	} catch (SQLException e) {
 		throw new RuntimeException(e);
-		 }
-	
-
-		}
-	
-	
+		} catch (ClassNotFoundException e) {
+			throw new RuntimeException(e);
+			}
+	}
 }

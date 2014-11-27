@@ -66,3 +66,10 @@
 127.0.0.1 - - [27/Nov/2014:14:20:42 -0200] "GET /fj21-agenda/adicionaContato?nome=di&email=di&endereco=di&dataNascimento=10%2F10%2F1010 HTTP/1.1" 500 2364
 127.0.0.1 - - [27/Nov/2014:14:28:48 -0200] "GET / HTTP/1.1" 404 951
 127.0.0.1 - - [27/Nov/2014:14:29:01 -0200] "GET /fj21-agenda/adicionaContato?nome=d&email=d&endereco=d&dataNascimento=01%2F01%2F0101 HTTP/1.1" 500 2364
+127.0.0.1 - - [27/Nov/2014:14:47:19 -0200] "GET /fj21-agenda/adicionaContato?nome=sw&email=sw&endereco=w&dataNascimento=01%2F01%2F0101 HTTP/1.1" 500 2364
+127.0.0.1 - - [27/Nov/2014:14:49:45 -0200] "GET /fj21-agenda/WEB-INF/classes/br/com/caelum/ConnectionFactory.java HTTP/1.1" 404 949
+127.0.0.1 - - [27/Nov/2014:14:50:03 -0200] "GET /fj21-agenda/adicionaContato?nome=qw&email=w&endereco=w&dataNascimento=12%2F12%2F1212 HTTP/1.1" 500 2364
+127.0.0.1 - - [27/Nov/2014:14:55:41 -0200] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [27/Nov/2014:14:55:52 -0200] "GET /fj21-agenda/adicionaContato?nome=23&email=23&endereco=23&dataNascimento=12%2F12%2F1212 HTTP/1.1" 500 2368
+127.0.0.1 - - [27/Nov/2014:14:57:27 -0200] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [27/Nov/2014:14:57:38 -0200] "GET /fj21-agenda/adicionaContato?nome=12&email=12&endereco=12&dataNascimento=12%2F12%2F1212 HTTP/1.1" 200 69
