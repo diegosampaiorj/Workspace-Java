@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import br.com.caelum.dao.ContatoDao;
+import br.com.caelum.agenda.dao.ContatoDao;
 import br.com.caelum.modelo.Contato;
 
 

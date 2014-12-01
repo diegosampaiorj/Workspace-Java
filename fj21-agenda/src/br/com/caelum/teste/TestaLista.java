@@ -2,7 +2,7 @@ package br.com.caelum.teste;
 
 import java.util.List;
 
-import br.com.caelum.dao.ContatoDao;
+import br.com.caelum.agenda.dao.ContatoDao;
 import br.com.caelum.modelo.Contato;
 
 public class TestaLista {

@@ -2,7 +2,7 @@ package br.com.caelum.teste;
 
 import java.util.Calendar;
 
-import br.com.caelum.dao.ContatoDao;
+import br.com.caelum.agenda.dao.ContatoDao;
 import br.com.caelum.modelo.Contato;
 
 public class TestaInserir {
