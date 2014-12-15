@@ -1,0 +1,7 @@
+127.0.0.1 - - [11/Dec/2014:12:12:16 -0200] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [11/Dec/2014:12:12:19 -0200] "GET /fj21-agenda/primeira-logica.jsp HTTP/1.1" 200 80
+0:0:0:0:0:0:0:1 - - [11/Dec/2014:12:12:53 -0200] "GET /fj21-agenda/mvc?logica=PrimeiraLogica HTTP/1.1" 500 50
+0:0:0:0:0:0:0:1 - - [11/Dec/2014:12:12:54 -0200] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [11/Dec/2014:12:13:54 -0200] "GET /fj21-agenda/mvc?logica=PrimeiraLogica HTTP/1.1" 500 50
+0:0:0:0:0:0:0:1 - - [11/Dec/2014:12:14:10 -0200] "GET /fj21-agenda/mvc?logica=primeira-logica.jsp HTTP/1.1" 500 50
+0:0:0:0:0:0:0:1 - - [11/Dec/2014:12:14:13 -0200] "GET /fj21-agenda/mvc?logica=primeira-logica.jsp HTTP/1.1" 500 50
