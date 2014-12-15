@@ -9,8 +9,7 @@ public class Ebook extends Livro{
 		if (porcentagem > 0.15) {
 		return false;
 		}
-		double desconto = this.getValor() * porcentagem;
-		this.setValor(getValor()- desconto);
+		this.valor -= this.valor * porcentagem;
 		return true;
 		}
 	

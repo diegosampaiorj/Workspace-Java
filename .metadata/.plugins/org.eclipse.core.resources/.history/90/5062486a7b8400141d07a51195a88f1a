@@ -2,15 +2,14 @@
 public class Ebook extends Livro{
 	public Ebook(Autor autor) {
 		super(autor);
+		// TODO Auto-generated constructor stub
 	}
 
-	@Override
 	public boolean aplicaDescontoDe(double porcentagem) {
 		if (porcentagem > 0.15) {
 		return false;
 		}
-		double desconto = this.getValor() * porcentagem;
-		this.setValor(getValor()- desconto);
+		this.valor -= this.valor * porcentagem;
 		return true;
 		}
 	
